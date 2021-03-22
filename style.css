@@ -124,7 +124,7 @@ html{
     background-image:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url("./manuel-meurisse-EuCll-F5atI-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     position: relative;
     
@@ -205,7 +205,7 @@ html{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("./manuel-meurisse-EuCll-F5atI-unsplash.jpg");
     background-position:bottom center ;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .next-window .flex1,.flex2,.flex3{
     flex-grow: 1;
