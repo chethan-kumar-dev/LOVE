@@ -1,0 +1,424 @@
+.custom-shape-divider-bottom-1616341824 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1616341824 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-bottom-1616341824 .shape-fill {
+    fill: #FFFFFF;
+}
+body,html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.video{
+    background-color: rgb(2, 2, 2);
+    width: 100vw;
+    height: 100vh;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+}
+.top-section img{
+    height: 130px;
+}
+.top-section .top-menu{
+    padding-top: 30px;
+}
+.top-menu{
+    height: 50px;
+    padding-top: 5px;
+    flex-grow: 1;
+}
+.top-menu ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    z-index: 1;
+}
+.menu-bar .fas{
+    color: white;
+    float: left;
+    display: none;
+}
+
+/* .top-menu ul li a:nth-child(2){
+    width: 180px;
+    margin-right: 200px;
+}
+.top-menu ul li a:nth-child(3){
+    width: 10px;
+    margin-left: 200px;
+} */
+.top-menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 17%;
+    position:absolute;
+    display: block;
+    text-align: center;
+    transform: scaleX(0);
+}
+.top-menu ul li:hover::after{
+    content: '';
+    width: 100%;
+    height: 17%;
+    position:absolute;
+    background:linear-gradient(rgb(0, 255, 221),pink);
+    display: block;
+    text-align: center;
+    padding: 0px 4px;
+    text-align: center;
+    border-radius: 20px;
+    transition:transform 0.5s ease-in-out;
+    z-index: -1;
+    transform: scaleX(1);
+}
+.next-window{
+    background-color: rgb(250, 250, 253);
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-menu ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.second-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.animation{
+    flex-grow: 1;
+    width: 300px;
+}
+
+.second-section .text{
+    flex-grow: 1;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    height: 400px;
+    margin: 0px 30px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url("./manuel-meurisse-EuCll-F5atI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+.btn-explore{
+    background-color: blueviolet;
+    color: white;
+    border:none ;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn-explore:hover{
+    box-shadow: 1px 1px 20px rgb(241, 239, 239);
+}
+.love-animation{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.animation1{
+    flex-grow: 1;
+   
+  flex-basis: 400px;
+}
+.animation2{
+    flex-grow: 1;
+   flex-basis: 400px;
+}
+.next-window{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px;
+    background: transparent;
+}
+.next-window .flex1,.flex2,.flex3{
+    background-color: black;
+    width: 300px;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+}
+.next-window .flex1::after{
+    content: '';
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.678);
+    height: 3%;
+    position: absolute;
+    top: -10px;
+
+}
+.next-window .flex2::after{
+    content: '';
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.678);
+    height: 3%;
+    position: absolute;
+    top: -10px;
+
+}
+.next-window .flex3::after{
+    content: '';
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.678);
+    height: 3%;
+    position: absolute;
+    top: -10px;
+
+}
+.next-window .flex1,.flex2,.flex3{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("./manuel-meurisse-EuCll-F5atI-unsplash.jpg");
+    background-position:bottom center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.next-window .flex1,.flex2,.flex3{
+    flex-grow: 1;
+}
+
+.inner-love .story{
+    padding: 30px 20px;
+    text-align: justify;
+}
+.inner-love{
+    display: flex;
+    color: white;
+    overflow-y: scroll;
+    height: 250px;
+}
+.inner-love::-webkit-scrollbar{
+    display: none;
+}
+.inner-love img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.third-window{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: scroll;
+}
+.secret1,.secret2,.secret3,.secret4,.secret5,.secret6,.secret7{
+    width: 400px;
+    flex-grow: 1;
+    text-align: justify;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(0, 153, 255, 0.404);
+}
+
+
+.heading h3{
+    text-transform: uppercase;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+.heading .circle{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left:7px ;
+    border:6px dotted black;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-right: 10px;
+    animation :circle 2s infinite linear
+}
+
+@keyframes circle{
+    50%{
+        transform: rotateZ(90deg);
+    }
+}
+.imp{
+    color: white;
+    background-color: blueviolet;
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.heart-animation{
+    display: flex;
+    justify-content: center;
+   
+}
+.fourth-window{
+    width  :100vw;
+    height:100vh;
+    margin-top: 50px;
+}
+.dad-heading{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(248, 11, 197);
+    width: 100%;
+    height: 40px;
+}
+.table-data{
+    color:black;
+    width: 100%;
+    margin-top: 30px;
+}
+.table-data th,td{
+    text-align: center;
+}
+.table-data th{
+    background-color: rgba(0, 153, 255, 0.404);
+}
+.register{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("./toa-heftiba-a7XUtljVEMc-unsplash.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width  : 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn-explore{
+    background-color: blueviolet;
+    color: white;
+    border:none ;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.footer-links .fab{
+    margin: 10px;
+}
+.footer{
+    margin-top: 140px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.last-div{
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+    width: 100%;
+}
+.side-navbar{
+    display: none;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+@media (max-width:500px){
+    .second-section .text{
+        font-size: 30px;
+    }
+    .footer{
+        margin-top: 200px;
+    }
+}
+@media (max-width:640px){
+    .third-window{
+        margin-top: 300px;
+    }
+}
+@media (max-width:860px){
+    .top-menu{
+        display:none;
+    }
+    
+    .menu-bar .fas{
+       
+        margin: 20px 40px;
+        font-size: 30px;
+        float: left;
+    }
+    .side-navbar{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: -400px;
+        background-color: rgb(11, 25, 71);
+        width: 400px;
+        transition: 0.5s;
+        height: 100%;
+        
+    }
+    .top-section img{
+        float: right;
+    }
+    .top-section .symbol{
+        flex-grow: 1;
+    }
+    .side-navbar ul li{
+        margin: 20px 10px;
+        color: white;
+        font-size: 18px;
+        list-style-type: none;
+    }
+    .menu-bar .fa-bars{
+        display: block;
+        margin: 40px 20px;
+        position: absolute;
+    }
+    .side-navbar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-times{
+        cursor: pointer;
+    }
+
+}
