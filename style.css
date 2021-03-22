@@ -165,6 +165,7 @@ html{
     position: absolute;
     top: 0px;
     background: transparent;
+    margin-top :100px;
 }
 .next-window .flex1,.flex2,.flex3{
     background-color: black;
